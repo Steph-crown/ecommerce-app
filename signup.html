@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/navbar.css" />
+  <link rel="stylesheet" href="./assets/css/signup.css" />
+  <title>Hafusa Stores | Sign up</title>
+</head>
+
+<body>
+  <section class="flex">
+    <aside class="text-center">
+      <nav class="">
+        <img class="w-4/12 mx-auto my-8" src="./images/logo.svg" />
+        <ul>
+          <li>
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+          </li>
+          <li>
+            <i class="fas fa-building"></i>
+            <span>About</span></li>
+          <li>
+            <i class="fa fa-shopping-cart"></i>
+            <span>Cart</span>
+          </li>
+          <li class="active">
+            <i class="fas fa-user-plus"></i>
+            <span>Sign Up</span>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="w-full p-8">
+      <div class="mx-auto">
+        <h1 class="text-center font-bold text-5xl my-6">Sign Up</h1>
+        <form>
+          <div class="flex">
+            <div class="w-1/2 m-3">
+              <label class="block pb-2">Firstname</label>
+              <input class="p-2 w-full border" type="text" placeholder="Olamide" name="firstname" />
+            </div>
+            <div class="w-1/2 m-3">
+              <label class="block pb-2">Lastname</label>
+              <input class="p-2 w-full border" type="text" placeholder="Makinde" name="lastname" />
+            </div>
+          </div>
+          <div class="m-3">
+            <label class="block pb-2">Email</label>
+            <input class="p-2 w-full border" type="text" placeholder="Olamide" />
+          </div>
+
+          <button class="text-white py-2 px-16 mx-auto block mt-20">Sign up</button>
+        </form>
+      </div>
+    </main>
+  </section>
+
+</body>
+
+</html>
