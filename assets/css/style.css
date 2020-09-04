@@ -52,6 +52,8 @@ margin-right:5%;
     margin-left:10%;
     width: 20%;
     padding: 10px 10px;
+    font-size:0.8rem;
+    font-weight: bold;
 }
 
 .btn-n, .btn-d{
@@ -63,7 +65,7 @@ margin-right:5%;
 .btn-l{
     background-color:#ffcad2 ;
     border:none;
-    color:white;
+    
 }
 
 .pics{
@@ -103,23 +105,41 @@ margin-right:5%;
     width: 400px;
     background-size: cover;
     width:23%;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow: 5px 0.5rem 0.5rem rgb(255,202,210);
 }
 
 .shoes h2{
-    margin-top:300px;
+    margin-top:270px;
+    margin-left:5%;
    
 }
 
+.categories button{
+    margin-top:15px;
+    margin-bottom:15px;
+    padding: 10px 10px;
+    font-size:0.8rem;
+    font-weight: bold;
+    margin-left:5%;
+}
+
 .shirts h2{
-    margin-top:300px;
+    margin-top:270px;
+    margin-left:5%;
 }
 
 .pants h2{
-    margin-top:300px;
+    margin-top:270px;
+    margin-left:5%;
+   
 }
 
 .caps h2{
-    margin-top:300px;
+    margin-top:270px;
+    margin-left:5%;
+   
 }
 
 .shoes{
@@ -138,4 +158,102 @@ background-image: url("/images/shirt-3.jpg");
 .pants{
 background-image: url("/images/pants-3.jpg");
 }
+
+/*slider*/
+
+.slider{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    overflow: hidden;
+   
+}
+
+
+
+
+
+
+.slider .first{
+
+
+width:23%;
+margin-left: 1%;
+
+height:200px;
+border-radius: 5px;
+box-shadow: 5px 0.5rem 0.5rem hsla(0, 0%, 0%, 0.8);
+
+background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/images/first.jpg");
+background-size: cover;
+    color:white;
+    
+  
+}
+
+.slider .discount{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/images/discount.jpg");
+    background-size: cover;
+
+    width:23%;
+    margin-left: 1%;
+    color:white;
+    height:200px;
+    border-radius: 5px;
+    box-shadow: 5px 0.5rem 0.5rem hsla(0, 0%, 0%, 0.8);
+}
+
+.slider .reviews{
+    background-color: hsla(0, 0%, 0%, 0.8);
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/images/happy-customer.jpg");
+    background-size: cover;
+    width:23%;
+    margin-left: 1%;
+    color:white;
+    height:200px;
+    border-radius: 5px;
+    box-shadow: 5px 0.5rem 0.5rem hsla(0, 0%, 0%, 0.8);
+}
+
+.slider .arrival{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/images/pants-1.jpg");
+    background-size: cover;
+color:white;
+width:23%;
+margin-left: 1%;
+
+height:200px;
+border-radius: 5px;
+box-shadow: 5px 0.5rem 0.5rem hsla(0, 0%, 0%, 0.8);
+}
+
+ 
+
+.slider h2{
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+
+.slider p{
+    height:50px
+}
+
+.slider button{
+    background: none;
+    color:white;
+    padding: 5px 10px;
+    margin-top: 30px;
+    border:1px solid white;
+    
+}
+
+
 
