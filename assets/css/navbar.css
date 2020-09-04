@@ -16,6 +16,11 @@ aside li{
   margin: 5px 0;
   /* font-weight: 600; */
   font-size: larger;
+  list-style-type: none;
+}
+aside ul{
+  padding: 0;
+  margin: 0;
 }
 aside li:hover{
   background-color: deeppink;
