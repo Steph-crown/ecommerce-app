@@ -44,11 +44,26 @@ margin-right:5%;
 .btn-all{
     display:flex;
     justify-content: space-around;
+    margin-right:5%;
    
 }
 
 .btn-all button{
     margin-left:10%;
+    width: 20%;
+    padding: 10px 10px;
+}
+
+.btn-n, .btn-d{
+   
+   background-color: white;
+   border: 1px black solid;
+}
+
+.btn-l{
+    background-color:#ffcad2 ;
+    border:none;
+    color:white;
 }
 
 .pics{
