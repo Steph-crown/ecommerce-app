@@ -227,7 +227,7 @@ background-size: cover;
     url("/images/pants-1.jpg");
     background-size: cover;
 color:white;
-width:23%;
+width:22%;
 margin-left: 1%;
 
 height:200px;
@@ -244,6 +244,7 @@ box-shadow: 5px 0.5rem 0.5rem hsla(0, 0%, 0%, 0.8);
 
 .slider p{
     height:50px
+
 }
 
 .slider button{
@@ -253,6 +254,29 @@ box-shadow: 5px 0.5rem 0.5rem hsla(0, 0%, 0%, 0.8);
     margin-top: 30px;
     border:1px solid white;
     
+}
+
+.wrapper{
+    margin-top: 30px;
+    width:95%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+
+}
+.wrapper .next{
+    position:absolute;
+    right: 15px;
+    bottom:-320px;
+}
+
+.wrapper .prev{
+    position:absolute;
+    left: 15px;
+    bottom:-320px;
+}
+
+.overall{
+    display: flex;
 }
 
 
