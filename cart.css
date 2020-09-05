@@ -7,7 +7,6 @@
 body{
     font-family: ''
 }
-
 .cart-page{
     margin: 0 auto;
 }
@@ -21,6 +20,7 @@ td img{
     width: 100px;
     height: 100px;
     padding-right: 10px;
+    border-radius:5px 5px 5px 5px !important;
 }
 
 .cart-info{
@@ -70,6 +70,7 @@ li a:visited {
     text-decoration: none;
     color: #fff;
 }
+
 
 @media(max-width: 768px) {
     table{

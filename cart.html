@@ -9,7 +9,7 @@
   <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
   <link rel="stylesheet" href="./assets/css/navbar.css" />
-  <link rel="stylesheet" href="./assets/css/cart.css">
+  <link rel="stylesheet" href="./cart.css">
   <title>Hafusa Stores | Sign up</title>
 </head>
 
@@ -67,7 +67,7 @@
                     
                     <td><input type="number" value="1"></td>
                     <td>50.00$</td>
-                    <td><button type ="button" class ="btn btn-danger">Del</button></td>
+                    <td><button type ="button" class ="btn btn-danger" data-fn="delete">Del</button></td>
                 </tr> 
                 
                 <tr>
@@ -83,7 +83,7 @@
                     
                     <td><input type="number" value="1"></td>
                     <td>50.00$</td>
-                    <td><button type ="button" class ="btn btn-danger">Del</button></td>
+                    <td><button type ="button" class ="btn btn-danger" data-fn="delete">Del</button></td>
                 </tr> 
                 
                 <tr>
@@ -100,7 +100,7 @@
                   
                     <td><input type="number" value="1"></td>
                     <td>50.00$</td>
-                    <td><button type ="button" class ="btn btn-danger">Del</button></td>
+                    <td><button type ="button" class ="btn btn-danger" data-fn="delete">Del</button></td>
                 </tr> 
                 
     <!---------cart foooter----------------->            
@@ -113,11 +113,14 @@
                 
             </table> 
             
-                <button type ="button" class ="btn btn-success">pay</button>
+                <button type ="button" class ="btn btn-success" data-fn="pay">pay</button>
         </div>
       </div>
     </main>
   </section>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <script src="./assets/js/cart.js"></script>
 </body>
 
 </html>
