@@ -302,7 +302,8 @@ box-shadow: 5px 0.5rem 0.5rem hsla(0, 0%, 0%, 0.8);
 @media only screen and (max-width:920px) {
 
 
-    .categories{display:block !important;
+    .categories{
+        display:block;
     }
 
 
