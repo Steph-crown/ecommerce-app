@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/navbar.css" />
+  <link rel="stylesheet" href="./assets/css/cart.css">
+  <title>Hafusa Stores | Sign up</title>
+</head>
+
+<body>
+  <section class="d-flex">
+    <aside class="text-center">
+      <nav class="">
+        <img class="w-25 mx-auto mt-5 mb-3" src="./images/logo.svg" />
+        <ul>
+          <li>
+              <a href="./index.html">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+          </a> </li>
+            
+          <li>
+              <a href="./products.html">
+            <i class="fas fa-building"></i>
+              <span>Products</span></a>
+            </li>
+            
+          <li class = "active">
+            <i class="fa fa-shopping-cart"></i>
+            <span>Cart</span>
+          </li>
+            
+          <li>
+              <a href="./signup.html">
+            <i class="fas fa-user-plus"></i>
+            <span>Sign Up</span> </a>
+        </li>
+            
+        </ul>
+      </nav>
+    </aside>
+   
+   <!------------------ cart section --------------------->
+      
+    <main class="w-100 p-2 p-md-5">
+      <div class="mx-auto">
+        <div class = "container mx-auto cart-page">
+            <table>
+                
+          <!--------- cart header --------------->
+                <tr>
+                    <th>product</th>
+                    <th>qty.</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+                
+            <!-------------- cart items ------------->
+               <tr>
+                    <td>
+                        <div class = "cart-info">
+                            <img src = "images/shirt-1.jpg">
+                            <div>
+                                <p>Denim shirt</p>
+                                <P class = small-price>50.00$</P>
+                            </div>
+                        </div>
+                    </td>
+                    
+                    <td><input type="number" value="1"></td>
+                    <td>50.00$</td>
+                    <td><button type ="button" class ="btn btn-danger" data-fn="delete">Del</button></td>
+                </tr> 
+                
+                <tr>
+                    <td>
+                        <div class = "cart-info">
+                            <img src = "images/cap-1.jpg">
+                            <div>
+                                <p>cap</p>
+                                <P class = small-price>50.00$</P>
+                            </div>
+                        </div>
+                    </td>
+                    
+                    <td><input type="number" value="1"></td>
+                    <td>50.00$</td>
+                    <td><button type ="button" class ="btn btn-danger" data-fn="delete">Del</button></td>
+                </tr> 
+                
+                <tr>
+                    <td>
+                        <div class = "cart-info">
+                            <img src = "images/pants-1.jpg">
+                            <div>
+                                <p>flower pants</p>
+                                <P class = small-price>50.00$</P>
+                            </div>
+                        </div>
+                    </td>
+                    
+                  
+                    <td><input type="number" value="1"></td>
+                    <td>50.00$</td>
+                    <td><button type ="button" class ="btn btn-danger" data-fn="delete">Del</button></td>
+                </tr> 
+                
+    <!---------cart foooter----------------->            
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>$2000.00</th>
+                    <th></th>
+                </tr>
+                
+            </table> 
+            
+                <button type ="button" class ="btn btn-success" data-fn="pay">pay</button>
+        </div>
+      </div>
+    </main>
+  </section>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <script src="./assets/js/cart.js"></script>
+</body>
+
+</html>

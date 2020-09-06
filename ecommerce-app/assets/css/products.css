@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family:Quicksand;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  color:#333333;
+}
+body {
+  background-color:#efefef !important;
+}
+nav {
+  background-color:#ffffff;
+  padding:10px 2px;
+}
+nav {
+  align-items:center;
+}
+span {
+  margin:0 5px 0 0;
+  
+}
+.fa-shopping-cart {
+  font-size:30px;
+  color:#fa3d67;
+}
+nav.d-md-block {
+  width:30vw;
+  height:100vh;
+  position:fixed !important;
+  left:0 !important;
+  text-align:left;top:0;
+  //padding:100px 0 0 30px;
+}
+.col-9 {
+  position:absolute;
+  right:0 !important;
+}
+.d-md-block div{
+  margin: 30px 0;
+}
+.d-md-block span {
+  display:block;
+  //margin:28px 0;
+}
+img {
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  border-radius:10px 10px 0 0;
+  background-color:#e7c2ce;
+}
+.row {
+  justify-content:center !important;
+}
+.product {
+  border:2px solid black;
+}
+b {
+  display:block;
+}
+.card {
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1), -10px -10px 5px rgba(255,255,255,0.5);
+  border-radius:12px;
+}
+.card:hover {
+  border:5px solid rgba(250,61,103,0.3);
+}
+.d-md-flex .card {
+  width:30% !important;
+  margin:10px;
+  
+}
+.d-md-none .card {
+  width:45%;
+  margin:10px 2.5%;
+}
+#card {
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  width:320px;
+  height:450px;
+  border-bottom:8px solid rgb(250,61,103);
+  background-color: #ffffff;
+  border-radius:7px;
+  text-align:center;
+  box-shadow:10px 10px 10px rgba(0,0,0,0.3), -10px -10px 10px rgba(255,255,255,0.3);
+}
+.line {
+  width:100px;
+  height:2px;
+  display:block;
+  margin:auto;
+  background-color:rgb(250,61,103);
+}
+i {font-style:normal;}
+h1 {
+  font-size:35px;
+  text-align:right;
+}
+#card img {
+  width:290px;
+  height:220px;
+  display:block;
+  margin:auto;
+  border-radius:15px;
+}
+.plus {
+  width:120px;
+  padding:1px;
+  background-color:rgb(250,61,103);
+  color:white;
+  font-size:25px;
+  border-radius:10px;
+  margin:auto;
+}
+body {width:100vw;height:100vh;}
+.blur {filter: blur(10px);
+  -webkit-filter: blur(10px);}
+  
+  
+/*  width:70vw !important;
+  position:relative;
+  right:0;*/
+ // z-index:-2
+ // background-color:blue;
+}
