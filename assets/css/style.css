@@ -306,12 +306,24 @@ box-shadow: 5px 0.5rem 0.5rem hsla(0, 0%, 0%, 0.8);
         display:block;
     }
 
+    .shoes,.caps,.shirts,.pants{
+      
+      
+        width:50%;
+       
+     height: 300px;
+    }
+
+    
 
 
-   
 
 
 
+    }
 
-
+    @media only screen and (max-width:500px){
+        .wrapper .next{
+            bottom:50px;
+        }
     }
