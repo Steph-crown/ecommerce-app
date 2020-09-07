@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family:Quicksand;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.middle{
+    background-color: #fff1f3;
+}
+
+
+li a:link,
+li a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*start*/
+
+
+.start{
+   
+    display:flex;
+    margin-top: 10px;
+    
+}
+ .start  h1{
+     text-align:left;
+     line-height:3.3rem;
+     font-size:3rem;
+     font-weight:300;
+     margin-bottom:30px;
+    
+ }
+
+.about{
+width:40%;
+margin-left: 3%;
+margin-right:10%;
+}
+
+.about p{
+
+    margin-bottom:40px;
+    line-height:25px;
+}
+
+.btn-all{
+    display:flex;
+    justify-content: space-around;
+    margin-right:5%;
+   
+}
+
+.btn-all button{
+   
+    width: 20%;
+    padding: 10px 10px;
+    font-size:0.8rem;
+    font-weight: bold;
+}
+
+.btn-n, .btn-d{
+   
+   background-color: white;
+   border: 1px black solid;
+}
+
+.btn-l{
+    background-color:#ffcad2 ;
+    border:none;
+    
+}
+
+.pics{
+    display: block;
+    width:35%;
+    background: linear-gradient(180deg, #ffcad2,#fff1f3 );
+    background-size: 5%;
+    height: 400px;
+    
+}
+
+.pics img{
+    width:32%;
+}
+
+.pics #first{
+    margin-top: 30px;
+}
+
+.pics #special{
+    position: absolute;
+    width:10%;
+    top: 180px;
+    right:23%;
+    
+}
+
+
+/*categories*/
+
+.categories{
+    display:flex;
+   
+   justify-content: center;
+}
+
+.shoes,.caps,.shirts,.pants{
+    width: 400px;
+    background-size: cover;
+    margin-left: 1%;
+    width:20%;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow: 5px 0.5rem 0.5rem rgb(255,202,210);
+}
+
+.shoes h2{
+    margin-top:270px;
+    margin-left:5%;
+   
+}
+
+.categories button{
+    margin-top:15px;
+    margin-bottom:15px;
+    padding: 10px 10px;
+    font-size:0.8rem;
+    font-weight: bold;
+    margin-left:5%;
+}
+
+.shirts h2{
+    margin-top:270px;
+    margin-left:1%;
+}
+
+.pants h2{
+    margin-top:270px;
+    margin-left:5%;
+   
+}
+
+.caps h2{
+    margin-top:270px;
+    margin-left:5%;
+   
+}
+
+.shoes{
+background-image: url("/images/shoe-2.jpg");
+
+}
+
+.caps{
+background-image: url("/images/cap-2.jpg");
+}
+
+.shirts{
+background-image: url("/images/shirt-3.jpg");
+}
+
+.pants{
+background-image: url("/images/pants-3.jpg");
+}
+
+/*slider*/
+
+.slider{
+    display:flex;
+   
+    margin-top: 20px;
+    overflow: hidden;
+   
+}
+
+
+
+
+.slider .first{
+
+
+width:20%;
+margin-left: 1%;
+
+height:200px;
+border-radius: 5px;
+box-shadow: 5px 0.5rem 0.5rem hsla(0, 0%, 0%, 0.8);
+
+background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/images/first.jpg");
+background-size: cover;
+    color:white;
+    
+  
+}
+
+.slider .discount{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/images/discount.jpg");
+    background-size: cover;
+
+    width:20%;
+    margin-left: 1%;
+    color:white;
+    height:200px;
+    border-radius: 5px;
+    box-shadow: 5px 0.5rem 0.5rem hsla(0, 0%, 0%, 0.8);
+}
+
+.slider .reviews{
+    background-color: hsla(0, 0%, 0%, 0.8);
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/images/happy-customer.jpg");
+    background-size: cover;
+    width:20%;
+    margin-left: 1%;
+    color:white;
+    height:200px;
+    border-radius: 5px;
+    box-shadow: 5px 0.5rem 0.5rem hsla(0, 0%, 0%, 0.8);
+}
+
+.slider .arrival{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/images/pants-1.jpg");
+    background-size: cover;
+color:white;
+width:20%;
+margin-left: 1%;
+
+height:200px;
+border-radius: 5px;
+box-shadow: 5px 0.5rem 0.5rem hsla(0, 0%, 0%, 0.8);
+}
+
+ 
+
+.slider h2{
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+
+.slider p{
+    height:50px
+
+}
+
+.slider button{
+    background: none;
+    color:white;
+    padding: 5px 10px;
+    margin-top: 30px;
+    border:1px solid white;
+    
+}
+
+.wrapper{
+    margin-top: 30px;
+    width:70%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+
+}
+.wrapper .next{
+    position:absolute;
+    right: 22%;
+    bottom:-190px;
+}
+
+.wrapper .prev{
+    position:absolute;
+    left: 10%;
+    bottom:-190px;
+}
+
+.overall{
+    display: flex;
+}
+
+
+
+
+
