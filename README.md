@@ -1,3 +1,3 @@
 ## Hosted link
 
-Steph-crown.github.io/ecommerce-app/
+https://Steph-crown.github.io/ecommerce-app/
